@@ -1,0 +1,84 @@
+
+<nav class="navbar">
+  <h1 class="navbar__logo">Animal Rescue Program</h1>
+  <div class="navbar__links">
+    <a href="#">Home</a>
+    <a href="#">Donate</a>
+    <a href="#">Adopt</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+<style>
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #39744e00;
+  color: rgb(26, 85, 43);
+}
+.navbar__logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 25px;
+}
+.navbar__links a {
+  color: rgb(26, 85, 43);
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.navbar__links a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<section class="gallery">
+  <div class="card">
+    <img src="https://www.rachaelrayfoundation.org/6-animal-rescue-organizations-to-know/" alt="Card 1">
+    <h2>New York </h2>
+    <p>Learn more about how you can help in New York</p>
+  </div>
+
+  <div class="card">
+    <img src="https://www.rachaelrayfoundation.org/6-animal-rescue-organizations-to-know/" alt="Card 2">
+    <h2>Massachusetts</h2>
+    <p>Find out about all our progress in the Boston area.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://www.hartz.com/adopting-a-dog/" alt="Card 3">
+    <h2>Rhode Island</h2>
+    <p>See how you can help in Rhode Island..</p>
+  </div>
+</section>
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+  background-color: #f7f7f7;
+}
+
+.card {
+  background-color: white;
+  color: rgb(26, 85, 43);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+</style>
